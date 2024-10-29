@@ -311,7 +311,7 @@
 	if (chambered || !magazine)
 		return
 	if (magazine.ammo_count())
-		chambered = (bolt_type == BOLT_TYPE_OPEN && !bolt_locked) || bolt_type == BOLT_TYPE_NO_BOLT ? magazine.get_and_shuffle_round() : magazine.get_round()
+		chambered = magazine.get_round((bolt_type == BOLT_TYPE_OPEN && !bolt_locked) || bolt_type == BOLT_TYPE_NO_BOLT)
 		if (bolt_type != BOLT_TYPE_OPEN && !(internal_magazine && bolt_type == BOLT_TYPE_NO_BOLT))
 			chambered.forceMove(src)
 		else
