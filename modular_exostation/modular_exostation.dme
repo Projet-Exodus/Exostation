@@ -1,1 +1,2 @@
-
+#include "_modpack.dm"
+#include "_modpacks.dm"
