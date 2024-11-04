@@ -1,4 +1,7 @@
 2024-11-01:
+  Thravalgur:
+  - config: first exostation edits
+  - code_imp: modular exostation with modpacks (Bandastation port)
   00-Steven:
   - bugfix: NTNRC "rename channel" button is now grayed out when unusable.
   - bugfix: Genetics console "create advanced injector" button is now grayed out when
