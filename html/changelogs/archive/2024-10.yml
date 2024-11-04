@@ -904,6 +904,11 @@
   - qol: added fail feedback to xenobio Regenerative Metal/Bluespace Extracts
   - bugfix: fixed Regenerative Metal Extract not checking for mob size when moving
       them into the spawned closet
+  Sealed101:
+  - bugfix: fixed APC control console found in CE office only accessing APCs on its
+      z-level
+  - bugfix: fixed restoring an emagged APC control console potentially leaving the
+      console in a forever state of restoring
   SmArtKar:
   - bugfix: Fixed green raptor corpses being able to mine rocks
   larentoun:
