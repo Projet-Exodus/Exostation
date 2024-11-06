@@ -1,7 +1,4 @@
 2024-11-01:
-  Thravalgur:
-  - config: first exostation edits
-  - code_imp: modular exostation with modpacks (Bandastation port)
   00-Steven:
   - bugfix: NTNRC "rename channel" button is now grayed out when unusable.
   - bugfix: Genetics console "create advanced injector" button is now grayed out when
@@ -20,6 +17,9 @@
   TheVekter:
   - bugfix: Clarifies mayhem-in-a-bottle's effects and makes the text much, much more
       obvious.
+  Thravalgur:
+  - config: first exostation edits
+  - code_imp: modular exostation with modpacks (Bandastation port)
   carlarctg:
   - image: adds some placeholder and not sprites for various fish sources
   - code_imp: added debug portal with all fish locations
@@ -210,3 +210,6 @@
       even without an AI.
   - balance: RoboTact also shows their synced AI's very basic status of functional
       or offline.
+2024-11-06:
+  Contrabang:
+  - code_imp: Removes S
